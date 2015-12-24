@@ -1,0 +1,12 @@
+<div class="row localizacion">
+	<div ng-controller="LocalizacionCtrl as vm">
+	    <h1>Te mostramos el Tiempo hoy en {{ vm.data.city.name }}</h1>
+	    <h3>Temperatura Actual: {{vm.data.list[0].main.temp}}&deg;C</h3>
+	    <h4>
+             <img class="img-thumbnail forecast-img" ng-src="http://openweathermap.org/img/w/{{ vm.data.list[0].weather[0].icon  }}.png" />
+           </h4> 
+           
+        	<h4>Min: {{vm.data.list[0].main.temp_min}}&deg;C, Max: {{vm.data.list[0].main.temp_max}}&deg;C </h4>
+	  </div>
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14642.991798362507!2d-5.661967680658729!3d40.973858757293435!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x451d838582fc81a8!2sGema+Stetic+Centro+de+Estetica+y+Masajes!5e0!3m2!1ses!2ses!4v1450726163815" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
