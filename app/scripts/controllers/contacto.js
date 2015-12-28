@@ -2,9 +2,9 @@
 
 /**
  * @ngdoc function
- * @name ejecticioAngularJsApp.controller:AboutCtrl
+ * @name ejecticioAngularJsApp.controller:ContactoCtrl
  * @description
- * # AboutCtrl
+ * # ContactoCtrl
  * Controller of the ejecticioAngularJsApp
  */
 angular.module('ejecticioAngularJsApp')

@@ -1,9 +1,9 @@
 'use strict';
 /**
  * @ngdoc function
- * @name ejecticioAngularJsApp.controller:AboutCtrl
+ * @name ejecticioAngularJsApp.controller:ServiciosCtrl
  * @description
- * # AboutCtrl
+ * # ServiciosCtrl
  * Controller of the ejecticioAngularJsApp
  */
 angular.module('ejecticioAngularJsApp')

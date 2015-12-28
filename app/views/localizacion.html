@@ -1,9 +1,10 @@
+   <!-- Contenido Pagina Localizacion -->
 <div class="row localizacion">
-	<div ng-controller="LocalizacionCtrl as vm">
+	<div data-ng-controller="LocalizacionCtrl as vm">
 	    <h1>Te mostramos el Tiempo hoy en {{ vm.data.city.name }}</h1>
 	    <h3>Temperatura Actual: {{vm.data.list[0].main.temp}}&deg;C</h3>
 	    <h4>
-             <img class="img-thumbnail forecast-img" ng-src="http://openweathermap.org/img/w/{{ vm.data.list[0].weather[0].icon  }}.png" />
+             <img class="img-thumbnail forecast-img" data-ng-src="http://openweathermap.org/img/w/{{ vm.data.list[0].weather[0].icon  }}.png" />
            </h4> 
            
         	<h4>Min: {{vm.data.list[0].main.temp_min}}&deg;C, Max: {{vm.data.list[0].main.temp_max}}&deg;C </h4>

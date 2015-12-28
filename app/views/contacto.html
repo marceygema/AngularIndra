@@ -1,20 +1,19 @@
- <!-- Page Heading/Breadcrumbs -->
+ <!-- Contenido Contacto -->
         <div class="row contacto">
             <div class="col-lg-12">
                 <h1 class="page-header">Contacta con Nosotros </h1>
             </div>
         </div>
-        <!-- /.row -->
 
-        <!-- Content Row -->
+        <!-- Contenido general -->
         <div class="row contacto">
-            <!-- Map Column -->
+            <!-- Mapa -->
             <div class="col-md-8">
-                <!-- Embedded Google Map -->
+                <!-- Google Map -->
                
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12049.395659174386!2d-5.660503!3d40.97384!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x451d838582fc81a8!2sGema+Stetic+Centro+de+Estetica+y+Masajes!5e0!3m2!1ses!2ses!4v1450716098037" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
-            <!-- Contact Details Column -->
+            <!-- Detalles de la direccion -->
             <div class="col-md-4">
                 <h3>Gema Stetic</h3>
                 <p>
@@ -34,30 +33,29 @@
                 </ul>
             </div>
         </div>
-        <!-- /.row -->
 
-        <!-- Contact Form -->
-        <div class="row contacto" ng-controller="ContactoCtrl">
+        <!-- Formulario de Contacto -->
+        <div class="row contacto" data-ng-controller="ContactoCtrl">
             <div class="col-md-8">
                 <h3>Envianos tu Consulta</h3>
                 <form name="userForm" id="userForm" novalidate>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Nombre Completo:</label>
-                            <input name="name" id="name" class="form-control"  type="text" ng-model="user.name" ng-model-options="{ updateOn: 'blur' }" placeholder="Nombre Completo" required />
-      <span class="messages" ng-show="userForm.$submitted || userForm.name.$touched">
-        <span ng-show="userForm.name.$error.required">Es obligatorio introducir el Nombre Completo..</span>
+                            <input name="name" id="name" class="form-control"  type="text" data-ng-model="user.name" data-ng-model-options="{ updateOn: 'blur' }" placeholder="Nombre Completo" required />
+      <span class="messages" data-ng-show="userForm.$submitted || userForm.name.$touched">
+        <span data-ng-show="userForm.name.$error.required">Es obligatorio introducir el Nombre Completo..</span>
       </span>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Numero de Telefono:</label>
-                            <input ng-model-options="{ updateOn: 'blur' }" class="form-control" type="number" name="phone" ng-model="user.telefono" placeholder="Telefono"    required />
-           					<span class="messages" ng-show="userForm.$submitted || userForm.phone.$touched">
-	                            <span  ng-show="userForm.phone.$error.required">
+                            <input data-ng-model-options="{ updateOn: 'blur' }" class="form-control" type="number" name="phone" data-ng-model="user.telefono" placeholder="Telefono"    required />
+           					<span class="messages" data-ng-show="userForm.$submitted || userForm.phone.$touched">
+	                            <span  data-ng-show="userForm.phone.$error.required">
 							      Es obligatorio intruducir el Telefono.</span>
-							    <span  ng-show="userForm.phone.$error.number">
+							    <span  data-ng-show="userForm.phone.$error.number">
 							      El Telefono tiene que ser valido</span>
 						     </span>
                         </div>
@@ -65,10 +63,10 @@
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Email :</label>
-                            <input class="form-control" name="email" type="email" ng-model="user.email" ng-model-options="{ updateOn: 'blur' }" placeholder="Email" required />
+                            <input class="form-control" name="email" type="email" data-ng-model="user.email" data-ng-model-options="{ updateOn: 'blur' }" placeholder="Email" required />
 					      <span class="messages" ng-show="userForm.$submitted || userForm.email.$touched">
-					        <span ng-show="userForm.email.$error.required">El campo es obligatorio.</span>
-					        <span ng-show="userForm.email.$error.email">Formato de email incorrecto.</span>
+					        <span data-ng-show="userForm.email.$error.required">El campo es obligatorio.</span>
+					        <span data-ng-show="userForm.email.$error.email">Formato de email incorrecto.</span>
 					      </span>
                         </div>
                     </div>
@@ -78,11 +76,10 @@
                             <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Introduce tu consulta" maxlength="999" style="resize:none"></textarea>
                         </div>
                     </div>
-                    <!-- For success/fail messages -->
-                     <input type="reset" class="btn btn-default" ng-click="reset(userForm)" value="Limpiar" />
-      				<input type="submit" class="btn btn-danger" ng-click="update()" value="Enviar Consulta" ng-disabled="userForm.$invalid" />
+                     <input type="reset" class="btn btn-default" data-ng-click="reset(userForm)" value="Limpiar" />
+      				<input type="submit" class="btn btn-danger" data-ng-click="update()" value="Enviar Consulta" data-ng-disabled="userForm.$invalid" />
                 </form>
             </div>
 
         </div>
-        <!-- /.row -->
+        <!-- Fin Formulario Contacto -->
