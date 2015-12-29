@@ -22,7 +22,7 @@ angular.module('ejecticioAngularJsApp')
       mode: 'json',
       units: 'metric',
       cnt: '1',
-      appid: '2de143494c0b295cca9337e1e96b00e0'
+      appid: '9a2c015ab0b6b303bb9ab3be011aaac9'
     }
   };
   

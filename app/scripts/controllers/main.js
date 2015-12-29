@@ -10,7 +10,7 @@
 
 angular.module('ejecticioAngularJsApp')
   .controller('MainCtrl', function ($scope) {
-    var baseURL='/images/';
+    var baseURL='images/';
     $scope.setInterval=5000;
 
     $scope.slides = [

@@ -8,7 +8,7 @@
  */
 angular.module('ejecticioAngularJsApp')
   .controller('ServiciosCtrl', function ($scope,$http) {
-    $http.get('http://localhost:9000/tarifas.json').success(function(data){
+    $http.get('tarifas.json').success(function(data){
     $scope.tarifas =data;
 });
     $scope.gridOptions = { 
