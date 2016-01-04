@@ -1,14 +1,14 @@
 [
-{ "tipo":"Depilacion", "nombre":"Piernas enteras", "precio":"12,50"},
-{ "tipo":"Depilacion", "nombre":"Medias piernas", "precio":"6,50"},
-{ "tipo":"Depilacion", "nombre":"Espalda/pecho", "precio":"12,50"},
-{ "tipo":"Depilacion", "nombre":"Ingles/axilas", "precio":"3,50"},
-{ "tipo":"Depilacion", "nombre":"Cejas", "precio":"3,50"},
+{ "tipo":"Depilacion", "nombre":"Piernas enteras", "precio":"12.50"},
+{ "tipo":"Depilacion", "nombre":"Medias piernas", "precio":"6.50"},
+{ "tipo":"Depilacion", "nombre":"Espalda/pecho", "precio":"12.50"},
+{ "tipo":"Depilacion", "nombre":"Ingles/axilas", "precio":"3.50"},
+{ "tipo":"Depilacion", "nombre":"Cejas", "precio":"3.50"},
 { "tipo":"Tratamiento", "nombre":"Anticeluliticos", "precio":"60"},
 { "tipo":"Tratamiento", "nombre":"Reafirmantes", "precio":"30"},
 { "tipo":"Tratamiento", "nombre":"Antiedad", "precio":"40"},
 { "tipo":"Tratamiento", "nombre":"Despigmentante", "precio":"30"},
 { "tipo":"Masaje", "nombre":"15 minutos", "precio":"10"},
 { "tipo":"Masaje", "nombre":"30 minutos", "precio":"15"},
-{ "tipo":"Masaje", "nombre":"1 hora", "precio":"24,50"}
+{ "tipo":"Masaje", "nombre":"1 hora", "precio":"24.50"}
 ]

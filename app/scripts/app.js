@@ -19,7 +19,8 @@ var routerApp = angular.module('ejecticioAngularJsApp', [
     'ngTouch',
     'ui.bootstrap',
     'ngGrid',
-    'ui.router'
+    'ui.router',
+    'ejecticioAngularJsApp.services'
   ]);
 
 routerApp.config(function($stateProvider, $urlRouterProvider) {
